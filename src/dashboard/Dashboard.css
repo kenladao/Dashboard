@@ -1,0 +1,165 @@
+.Dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.graph {
+    width: auto;
+    height: 350px;
+    background: #3D3D3D;
+    border-radius: 20px;
+    text-align: start;
+}
+.one {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    
+    color: #40F2DD;
+    margin-left: 27px;
+}
+
+.headerGraph {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #40F2DD;
+}
+
+.month {
+    width: auto;
+    height: 148px;
+
+    background: #ADADAD;
+    border-radius: 20px;
+    padding: 10px 5px 10px 5px;
+}
+
+.two {
+    font-family: 'Inter';
+    font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        align-items: center;
+        text-align: center;
+    
+        color: #000000;
+    }
+    
+    .three {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        align-items: center;
+        text-align: center;
+    
+        color: #40F2DD;
+        margin-top: 20px;
+    }
+.fresh {
+    width: auto;
+    height: 165px;
+
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.nameOne {
+    width: auto;
+    height: 165px;
+
+    background: #40F2DD;
+    border-radius: 20px;
+}
+
+.bestSeller {
+    width: auto;
+    height: 165px;
+
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.totalMargin {
+    width: auto;
+    height: 165px;
+
+    background: #ADADAD;
+    border-radius: 20px;
+}
+
+.monthly {
+    height: 165px;
+
+    background: #3D3D3D;
+    border-radius: 20px;
+}
+
+.monthlySale {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+    margin-top: 15px;
+}
+
+.date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.sale {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    align-items: center;
+    text-align: right;
+
+    color: #40F2DD;
+}
+
+.mostSale {
+    height: 140px;
+
+    background: #40F2DD;
+    border-radius: 20px;
+}
+
+.sales {
+    height: 350px;
+
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+.totalSale {
+    height: 183px;
+
+    background: #ADADAD;
+    border-radius: 20px;
+}
