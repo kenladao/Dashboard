@@ -1,9 +1,15 @@
 import React from 'react';
 import Grid from '@mui/material/Grid';
 import {data} from './data/data';
+import { Paper, Typography } from '@mui/material';
+
+import { useStyles } from './DashboardMui';
 import "./Dashboard.css"
 
+
+
 const Dashboard = () => {
+    const classes = useStyles();
     return (
         <div className="Dashboard">
             <Grid
@@ -27,14 +33,14 @@ const Dashboard = () => {
                 alignItems="flex-start"
                 spacing={3}>
                 <Grid item xs={3} style={{position: "center"}}>
-                    <div className='month'>
-                        <div className='two'>
+                        <Paper className={classes.paper}>
+                        <Typography className={classes.headerTwo}>
                             Total Sales this month
-                        </div>
-                        <di className='three'>
+                        </Typography>
+                        <Typography className={classes.bodytwo}>
                             120
-                        </di>
-                    </div>
+                        </Typography>
+                        </Paper>
                 </Grid>
                 <Grid item xs={6}>
                     <div className='fresh'>
